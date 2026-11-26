@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="История часов, устройство механизма, виды часов и правила ухода за ними.">
+  <title>Часы: история, устройство и уход</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #1d2b3a;
+      background: #f7f5f0;
+    }
+
+    header,
+    footer {
+      padding: 32px 16px;
+      text-align: center;
+      color: #ffffff;
+      background: #1d2b3a;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2.4rem;
+    }
+
+    h2 {
+      padding-bottom: 8px;
+      border-bottom: 3px solid #c08a2e;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #e5d8bd;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 4px 28px;
+      margin: 0;
+      padding: 12px 16px;
+      list-style: none;
+    }
+
+    a {
+      color: #7a4f0c;
+    }
+
+    nav a {
+      color: #1d2b3a;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px 32px;
+    }
+
+    section {
+      scroll-margin-top: 100px;
+    }
+
+    article {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+      column-gap: 28px;
+      margin-bottom: 28px;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 8px;
+    }
+
+    article h3 {
+      grid-column: 1 / -1;
+      margin-top: 0;
+    }
+
+    article p {
+      margin-top: 0;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    figcaption {
+      margin-top: 6px;
+      font-size: 0.9rem;
+      color: #4d5b69;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #ffffff;
+    }
+
+    caption {
+      margin-bottom: 8px;
+      text-align: left;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid #c9c2b2;
+      text-align: left;
+    }
+
+    th {
+      background: #e5d8bd;
+    }
+
+    address {
+      font-style: normal;
+    }
+
+    footer a {
+      color: #f0c66f;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      nav {
+        position: static;
+      }
+
+      section {
+        scroll-margin-top: 0;
+      }
+
+      article {
+        grid-template-columns: 1fr;
+        padding: 16px;
+      }
+
+      figure {
+        margin-bottom: 16px;
+      }
+
+      th,
+      td {
+        padding: 6px;
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Часы: как человек научился измерять время</h1>
+    <p>От тени на камне до колебаний кристалла кварца</p>
+  </header>
+
+  <nav aria-label="Разделы страницы">
+    <ul>
+      <li><a href="#history">История</a></li>
+      <li><a href="#mechanism">Устройство</a></li>
+      <li><a href="#types">Сравнение</a></li>
+      <li><a href="#care">Уход</a></li>
+      <li><a href="#resources">Ресурсы</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="history">
+      <h2>История часов</h2>
+
+      <article>
+        <h3>Солнечные часы</h3>
+        <figure>
+          <img src="солнеч.png" width="640" height="480" alt="Горизонтальные солнечные часы с римскими цифрами и треугольным указателем, отбрасывающим тень">
+          <figcaption>Рисунок: горизонтальные солнечные часы</figcaption>
+        </figure>
+        <p>Это один из самых древних приборов для измерения времени: в Египте ими пользовались уже около 1500 года до н. э. Время определяют по положению тени от указателя, который называется гномоном. Такие часы не работают ночью и в пасмурную погоду.</p>
+      </article>
+
+      <article>
+        <h3>Водяные часы</h3>
+        <figure>
+          <img src="водн.png" width="640" height="480" alt="Водяные часы: вода капает из верхнего сосуда в нижний, поплавок поднимает указатель вдоль шкалы">
+          <figcaption>Рисунок: водяные часы</figcaption>
+        </figure>
+        <p>Водяные часы, или клепсидра, измеряют время по тому, как вода перетекает из одного сосуда в другой. Они были известны в Древнем Египте, Вавилоне, Китае и Греции. В отличие от солнечных, они могли работать ночью и в помещении.</p>
+      </article>
+
+      <article>
+        <h3>Механические часы</h3>
+        <figure>
+          <img src="старые часы.png" width="640" height="480" alt="Настенные часы в деревянном корпусе с круглым циферблатом, гирей и качающимся маятником">
+          <figcaption>Рисунок: маятниковые часы с гирей</figcaption>
+        </figure>
+        <p>Первые механические башенные часы появились в Европе в конце XIII века. Их приводил в движение опускающийся груз. В 1656 году нидерландский учёный Христиан Гюйгенс создал маятниковые часы, и точность хода резко выросла: ошибка сократилась примерно с 15 минут до 15 секунд в сутки.</p>
+      </article>
+
+      <article>
+        <h3>Кварцевые часы</h3>
+        <figure>
+          <img src="кварц.png" width="640" height="480" alt="Наручные кварцевые часы с белым циферблатом, тремя стрелками и тёмным ремешком">
+          <figcaption>Рисунок: наручные кварцевые часы</figcaption>
+        </figure>
+        <p>Первые кварцевые часы построили в 1927 году в лабораториях Белла в США, а в 1969 году японская компания Seiko выпустила первые серийные кварцевые наручные часы Astron. Батарейка заставляет кристалл кварца колебаться, обычно 32&nbsp;768 раз в секунду, а электронная схема превращает эти колебания в секундные импульсы.</p>
+      </article>
+    </section>
+
+    <section id="mechanism">
+      <h2>Как устроены механические часы</h2>
+
+      <article>
+        <h3>Основные узлы механизма</h3>
+        <figure>
+          <img src="механ.png" width="640" height="480" alt="Упрощённая схема механизма: барабан с пружиной, шестерни, спусковое колесо, анкерная вилка и баланс, отмеченные цифрами от 1 до 5">
+          <figcaption>Упрощённая схема, цифры соответствуют списку</figcaption>
+        </figure>
+        <ol>
+          <li><strong>Барабан с заводной пружиной</strong> хранит энергию.</li>
+          <li><strong>Колёсная передача</strong> передаёт энергию дальше и связана со стрелками.</li>
+          <li><strong>Спусковое колесо</strong> поворачивается небольшими шагами.</li>
+          <li><strong>Анкерная вилка</strong> то останавливает, то отпускает спусковое колесо.</li>
+          <li><strong>Баланс со спиралью</strong> равномерно колеблется и задаёт ритм хода.</li>
+        </ol>
+      </article>
+    </section>
+
+    <section id="types">
+      <h2>Сравнение часов по принципу работы</h2>
+      <table>
+        <caption>Точность указана приблизительно и зависит от модели</caption>
+        <thead>
+          <tr>
+            <th scope="col">Вид часов</th>
+            <th scope="col">Источник энергии</th>
+            <th scope="col">Типичная погрешность</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Механические наручные</th>
+            <td>Заводная пружина</td>
+            <td>Несколько секунд или десятки секунд в сутки</td>
+          </tr>
+          <tr>
+            <th scope="row">Кварцевые наручные</th>
+            <td>Батарейка или аккумулятор</td>
+            <td>Около 15–30 секунд в месяц</td>
+          </tr>
+          <tr>
+            <th scope="row">Атомные</th>
+            <td>Электросеть</td>
+            <td>Менее секунды за миллионы лет</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Атомные часы служат эталоном времени. С 1967 года секунду определяют через частоту излучения атома цезия-133: 9&nbsp;192&nbsp;631&nbsp;770 периодов.</p>
+    </section>
+
+    <section id="care">
+      <h2>Уход за часами</h2>
+
+      <h3>Для механических часов</h3>
+      <ul>
+        <li>Заводите часы с ручным заводом примерно в одно и то же время.</li>
+        <li>Берегите их от ударов и сильных магнитов.</li>
+        <li>Проходите обслуживание в мастерской в сроки, указанные производителем.</li>
+      </ul>
+
+      <h3>Для кварцевых часов</h3>
+      <ul>
+        <li>Вовремя меняйте разрядившуюся батарейку, чтобы она не потекла.</li>
+        <li>Не оставляйте часы на жаре и сильном морозе.</li>
+        <li>Перед контактом с водой проверьте класс водозащиты.</li>
+      </ul>
+    </section>
+
+    <section id="resources">
+      <h2>Полезные ресурсы</h2>
+      <ul>
+        <li><a href="https://www.rmg.co.uk/harrison" target="_blank" rel="noopener">Королевские музеи Гринвича: Джон Гаррисон и морские хронометры</a> (на английском)</li>
+        <li><a href="https://www.bipm.org/en/si-base-units/second" target="_blank" rel="noopener">Международное бюро мер и весов: определение секунды</a> (на английском)</li>
+        <li><a href="https://www.vniiftri.ru/" target="_blank" rel="noopener">ВНИИФТРИ: институт, хранящий эталон времени России</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      Связаться со мной:
+      <a href="mailto:danilbeliaev2007@gmail.com">danilbeliaev2007@gmail.com</a> |
+      <a href="tel:+79245072035">+7 (908) 643-30-50</a>
+    </address>
+  </footer>
+</body>
+</html>
